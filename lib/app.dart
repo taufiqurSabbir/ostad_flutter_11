@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_ostad_11/home.dart';
 
 import 'flutter_class_3.dart';
+import 'module_8/module_8_class_1.dart';
 
 class MyApp extends StatelessWidget{
 
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Batch 11 flutter',
-      home: FlutterClass3(),
+      home: Module8Class1(),
 
     );
   }
