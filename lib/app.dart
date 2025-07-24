@@ -10,6 +10,8 @@ import 'module_8/module8_class3.dart';
 import 'module_8/module8_stack.dart';
 import 'module_8/module_8_class_1.dart';
 import 'module_9/class_1.dart';
+import 'module_9/class_2.dart';
+import 'module_9/own_widget.dart';
 
 class MyApp extends StatelessWidget{
 
@@ -19,7 +21,7 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Batch 11 flutter',
-      home: Alert(),
+      home: OwnWidget(),
 
     );
   }
