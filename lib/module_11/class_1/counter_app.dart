@@ -66,7 +66,6 @@ class _CounterAppState extends State<CounterApp> {
                       number--;
                       print(number);
                     });
-
                   },
                   child: Text(
                     '-',
