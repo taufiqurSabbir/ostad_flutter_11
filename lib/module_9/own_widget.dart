@@ -6,6 +6,7 @@ class OwnWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print('Own widget');
     return Scaffold(
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,

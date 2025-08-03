@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_ostad_11/home.dart';
 
 import 'flutter_class_3.dart';
+import 'module_11/class_1/counter_app.dart';
 import 'module_8/assignment.dart';
 import 'module_8/list_view.dart';
 import 'module_8/modue_8_class_2.dart';
@@ -26,12 +27,7 @@ class MyApp extends StatelessWidget{
         primaryColor: Colors.purple,
         primarySwatch: Colors.teal,
         scaffoldBackgroundColor: Colors.grey.shade100,
-        appBarTheme: AppBarTheme(
-          color: Colors.orange,
-          titleTextStyle: TextStyle(
-            fontSize: 30
-          )
-        ),
+
         
         elevatedButtonTheme: ElevatedButtonThemeData(
           style: ElevatedButton.styleFrom(
@@ -43,13 +39,7 @@ class MyApp extends StatelessWidget{
           )
         ),
 
-        textTheme:  TextTheme(
-          headline1: TextStyle(
-            fontSize: 32,
-            fontWeight: FontWeight.bold,
-            color: Colors.deepPurple
-          )
-        ),
+
 
         inputDecorationTheme: InputDecorationTheme(
           border: OutlineInputBorder(borderRadius: BorderRadius.circular(10)),
@@ -69,12 +59,13 @@ class MyApp extends StatelessWidget{
         )
       ),
       title: 'Batch 11 flutter',
-      initialRoute: '/class3',
+      initialRoute: '/counterApp',
       routes: {
         '/home' :(contex) => TravelHomeScreen(),
         '/class1': (context) =>Alert(),
         '/class2' : (context) => OwnWidget(),
-        '/class3' : (context) => class3()
+        '/class3' : (context) => class3(),
+        '/counterApp' : (context) => CounterApp()
       },
 
 
